@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AviationBooks</title>
+    <link rel="icon" type="image/x-icon" href="assest/AB.ico">
+    <meta name="title" content="AviationBooks : one place solution for Aviation Books">
+    <meta name="description"
+        content="AviationBooks  is a one place solution for all your book search. here you will get all DGCA and EASA Modules related books . without any annoying ads.">
+    <meta name="keywords" content="EASA, Module, dgca, 12A, 9A, 15A, mike tooley, jet engine">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="30 days">
+
+    <link  rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- header section  -->
+    <div class="main">
+        <header class="container main-header h-nav">
+            <img src="assest/AviationBooks.svg" alt="AviationBooks">
+
+            <ul class="nav-list">
+                <li class="nav-items">Home</li>
+                <li class="nav-items" id="AboutOpen">About</li>
+                <li class="nav-items" id="ContactOpen">Contact</li>
+            </ul>
+
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+        </header>
+    </div>
+
+
+    <section class="hero ">
+        <div class="hcon container">
+            <div class="fh">
+                <div class="f1">
+                    <h1>Find the <span>book</span> you're looking for easier to read right away</h1>
+                    <h2>The most appropriate book site to search for Aviation books.</h2>
+                    <div class=" search-container ">
+
+                        <form class="btn-search">
+                            <input type="text" id="search-items" class="search-items"
+                                placeholder="Search aviation books...">
+                            <img src="assest/search-alt.svg" alt="search">
+
+                        </form>
+
+                    </div>
+                </div>
+
+                <div class="sh">
+                    <img fetchpriority="high" src="assest/heroImg.webp" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+
+    <!-- Modal for Contact Us -->
+    <section id="modal-window" class="modal-window">
+        <img class="s-close" src="assest/charm_cross.svg" alt="close">
+
+        <div class="contact-container">
+
+            <div class="contactInfo">
+                <div>
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><img src="assest/location.png" alt="location"></span>
+                            <span>Maharastra, India</span>
+                        </li>
+                    </ul>
+                    <ul class="info">
+                        <li>
+                            <span><img src="assest/mail.png" alt="mail"></span>
+                            <span>helpaviationbooks@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="sci">
+                    <li><a href="https://github.com/Pralhad-Nasane" target="_blank"><img src="assest/github (2).png"
+                                alt="Github"></a>
+                    </li>
+
+                    <li><a href="https://twitter.com/Pralhad_Nasane" target="_blank"><img src="assest/2.png"
+                                alt="Twitter"></a>
+                    </li>
+
+                    <li><a href="https://in.linkedin.com/in/pralhadnasane" target="_blank"><img src="assest/5.png"
+                                alt="Linkedin"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contactForm">
+
+                <h2>Send a Message</h2>
+                <div class="formBox">
+                    <div class="inputs w50">
+                        <label class="required-field">First Name</label>
+                        <input id="first_name" type="text" required>
+                    </div>
+
+                    <div class="inputs w50">
+                        <label class="required-field">Last Name</label>
+                        <input id="last_name" type="text" required>
+                    </div>
+
+                    <div class="inputs w50">
+                        <label class="required-field">Email Account</label>
+                        <input id="email_id" type="email" required>
+                    </div>
+
+                    <div class="inputs w50">
+                        <label>Phone Number</label>
+                        <input id="mob" class="input.control" type="tel">
+                    </div>
+
+                    <div class="inputs w100">
+                        <label class="required-field">Write your message here...</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+
+                    <div class="inputs w100">
+                        <input class="send" onclick="SendMail()" type="submit" value="Send">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- modal for About Project -->
+    <section id="About-Modal" class="about-modal">
+
+        <div class="about-container">
+
+            <div class="aboutHead">
+                <div class="head">
+                    <span>About Project</span>
+                    <img class="a-close" src="assest/charm_cross.svg" alt="close">
+                </div>
+                <div class="aboutContent">
+                    <h3> 👋 Hi there !</h3>
+                    <span>
+                        As the founder of this website, my mission is to bring all aviation books in one place and to
+                        make them available to all aviation enthusiasts around the world.
+                    </span>
+
+                </div>
+
+                <div class="s">
+                    <span>Socials</span>
+                    <ul>
+                        <li><a href="https://github.com/Pralhad-Nasane" target="_blank"><img
+                                    src="assest/icons8-github.svg" alt="Github"></a></li>
+                        <li><a href="https://twitter.com/Pralhad_Nasane" target="_blank"><img
+                                    src="assest/icons8-twitter.svg" alt="Twitter"></a></li>
+                        <li><a href="https://in.linkedin.com/in/pralhadnasane" target="_blank"><img
+                                    src="assest/icons8-linkedin-2.svg" alt="Linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="socials">
+                    <h3>Copy Link</h3>
+                </div>
+                <div class="links">
+                    <img src="assest/icons8-link-32.png" alt="link-icon">
+                    <input class="cpy" type="text" value="www.aviationbooks.in" readonly>
+                    <button class="btn-copy">Copy</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Privacy" class="privacy">
+
+        <div class="privacyHeader">
+
+            <div class="policyHead">
+                <h2> Privacy Policy</h2>
+            </div>
+
+            <div class="policyBody">
+
+                <span>Privacy Policy:</span>
+                <p>
+                    AviationBooks website is owned by AviationBooks, which is a data controller of your personal data.
+                    We have adopted this Privacy Policy, which determines how we are processing the information
+                    collected by
+                    AviationBooks, which also provides the reasons why we must collect certain personal data about you.
+                    Therefore, you must read this Privacy Policy before using AviationBooks website. We take care of
+                    your personal data and undertake to guarantee its confidentiality and security.
+                </p>
+
+                <span> Personal information we collect:</span>
+                <p>
+                    When you visit the AviationBooks, we automatically collect certain information about your device,
+                    including
+                    information about your web browser, IP address, time zone, and some of the installed cookies on your
+                    device.
+                    Additionally, as you browse the Site, we collect information about the individual web pages or
+                    products you view, what websites or search terms referred you to the Site, and how you interact with
+                    the Site. We refer to this automatically-collected information as “Device Information.” Moreover, we
+                    might collect the personal data you provide to us (including but not limited to Name, Surname,
+                    Address, payment information, etc.) during registration to be able to fulfill the agreement.
+                </p>
+
+                <span>Why do we process your data?</span>
+                <p>
+                    Our top priority is customer data security, and, as such, we may process only minimal user data,
+                    only
+                    as much as it is absolutely necessary to maintain the website. Information collected automatically
+                    is
+                    used only to identify potential cases of abuse and establish statistical information regarding
+                    website usage.This statistical information is not otherwise aggregated in such a way that it would
+                    identify any particular user of the system.
+                </p>
+
+                <p>
+                    You can visit the website without telling us who you are or revealing any information, by which
+                    someone could identify you as a specific, identifiable individual. If, however, you wish to use some
+                    of the website’s features, or you wish to receive our newsletter or provide other details by filling
+                    a
+                    form, you may provide personal data to us, such as your email, first name, last name, city of
+                    residence, organization, telephone number. You can choose not to provide us with your personal data,
+                    but then you may not be able to take advantage of some of the website’s features. For example, you
+                    won’t be
+                    able to receive our Newsletter or contact us directly from the website. Users who are uncertain
+                    about what information is mandatory are welcome to contact us via
+                    <a href="mailto:helpaviationbooks@gmail.com">helpaviationbooks@gmail.com</a>
+                </p>
+
+                <span> Your rights:</span>
+                <p>If you are a European resident, you have the following rights related to your personal data:</p>
+
+                <ul>
+                    <li>The right to be informed.</li>
+                    <li>The right of access.</li>
+                    <li>The right to rectification.</li>
+                    <li>The right to erasure.</li>
+                    <li>The right to restrict processing.</li>
+                    <li> The right to data portability.</li>
+                    <li>The right to object.</li>
+                    <li>Rights in relation to automated decision-making and profiling.</li>
+                </ul>
+
+                <p>
+                    If you would like to exercise this right, please contact us through the contact information below.
+                    Additionally, if you are a European resident, we note that we are processing your information in
+                    order to fulfill contracts we might have with you (for example, if you make an order through the
+                    Site), or otherwise to pursue our legitimate business interests listed above. Additionally, please
+                    note that your information might be transferred outside of Europe, including Canada and the United
+                    States.
+                </p>
+
+                <span> Links to other websites:</span>
+                <p>
+                    Our website may contain links to other websites that are not owned or controlled by us. Please be
+                    aware that we are not responsible for such other websites or third parties' privacy practices. We
+                    encourage you to be aware when you leave our website and read the privacy statements of each website
+                    that may collect
+                    personal information.
+                </p>
+
+                <span>Information security:</span>
+                <p>
+                    We secure information you provide on computer servers in a controlled, secure environment, protected
+                    from unauthorized access, use, or disclosure. We keep reasonable administrative, technical, and
+                    physical safeguards to protect against unauthorized access, use, modification, and personal data disclosure
+                    in its control and custody. However, no data transmission over the Internet or wireless network can
+                    be guaranteed.
+                </p>
+
+                <span>Legal disclosure:</span>
+                <p>
+                    We will disclose any information we collect, use or receive if required or permitted by law, such as
+                    to comply with a subpoena or similar legal process, and when we believe in good faith that
+                    disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud,
+                    or respond to a government request.
+                </p>
+
+                <span>Contact information:</span>
+                <p>
+                    If you would like to contact us to understand more about this Policy or wish to contact us
+                    concerning any matter relating to individual rights and your Personal Information, you may send an email to
+                    <a href="mailto:helpaviationbooks@gmail.com">helpaviationbooks@gmail.com</a>
+                </p>
+
+            </div>
+            <div class="privacyFooter">
+                <button class="pClose">Close</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- main section -->
+    <main class="main-content " id="main-content">
+
+        <!-- filter section -->
+        <section class="filters container">
+            <div class="filter-list">
+                <span class="filter active" data-filter="All">All</span>
+                <span class="filter" data-filter="EASA">EASA</span>
+                <span class="filter" data-filter="9A">9A</span>
+                <span class="filter" data-filter="12A">12A</span>
+                <span class="filter" data-filter="15A">15A</span>
+                <span class="filter" data-filter="Others">Others</span>
+            </div>
+        </section>
+
+
+        <section class="wrapper-cards">
+            <div class="flex-container container " id="book-lists">
+
+                <!-- EASA Module 1 Mathematics -->
+                <article class="items " data-items="EASA">
+                    <img src="b-img/Module 01 - Mathematics.webp" alt="EASA Module 1 - Mathematics">
+                    <h2 class="title t1">EASA Module 1 - Mathematics</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1I7C_OnRFiZ-0YoiA64HnMCblZmz6Z8Xx"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1I7C_OnRFiZ-0YoiA64HnMCblZmz6Z8Xx/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+
+                <!-- EASA Module 2 Physics -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 02 - Physics.webp" alt="EASA Module 2 - Physics">
+                    <h2 class="title t2">EASA Module 2 - Physics</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=16AIdfrUw3MgcMfnBN8ELYqDUqA0e9LbP"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/16AIdfrUw3MgcMfnBN8ELYqDUqA0e9LbP/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 03 Electrical Fundamental -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 03 -Electrical Fundamental.webp"
+                        alt="EASA Module 3 -Electrical Fundamentals">
+                    <h2 class="title t2">EASA Module 3 -Electrical Fundamentals</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1ryXdo9_2k47mexjrczebBfLdoSUJdhGA"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1ryXdo9_2k47mexjrczebBfLdoSUJdhGA/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 04 B1 Electronic Fundamental -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 04 B1 - Electronic Fundamental.webp"
+                        alt="EASA Module 4 B1 - Electronic Fundamental">
+                    <h2 class="title t4">EASA Module 4 B1 - Electronic Fundamental</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1N-rKHJMViW7nPOgHN_z7gAu6OhJcRNIq"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1N-rKHJMViW7nPOgHN_z7gAu6OhJcRNIq/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 04 B2 Electronic Fundamental -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 04 B2 - Electronic Fundamental.webp"
+                        alt="EASA Module 4 B2 - Electronic Fundamental">
+                    <h2 class="title t5">EASA Module 4 B2 - Electronic Fundamental</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/file/d/15s2FiannA2-sMEfBpv49qXPHArAEipGs/view?usp=sharing"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/uc?export=download&id=15s2FiannA2-sMEfBpv49qXPHArAEipGs"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 05 B1 Digital Techniques -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 05 B1 Digital Techniques.webp" alt="EASA Module 5 B1 - Digital Techniques">
+                    <h2 class="title t6">EASA Module 5 B1 - Digital Techniques</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=13UiRjwU4Bqos20URQtwmUZxN606zSz9d"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/13UiRjwU4Bqos20URQtwmUZxN606zSz9d/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 05 B2 Digital Techniques -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 05 B2 Digital Techniques.webp" alt="EASA Module 5 B2 - Digital Techniques">
+                    <h2 class="title t7">EASA Module 5 B2 - Digital Techniques</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1lMfDrF_FHpkxY2nJya2imT1_CmWzL8ma"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1lMfDrF_FHpkxY2nJya2imT1_CmWzL8ma/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 06 B1 & B2 Material and Hardware -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 6 B1 & B2 - Materials and Hardware.webp"
+                        alt="EASA Module 6 B1 & B2 - Materials and Hardware">
+                    <h2 class="title t8">EASA Module 6 B1 & B2 - Materials and Hardware</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1dOYz0M0lCNs4xZIOxmuBxLirace5ceCd"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1dOYz0M0lCNs4xZIOxmuBxLirace5ceCd/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 07 B1 & B2 Maintenance Practices -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 7 B1 & B2 - Maintenance Practices.webp"
+                        alt="EASA Module 7 B1 & B2 - Maintenance Practices">
+                    <h2 class="title t9">EASA Module 7 B1 & B2 - Maintenance Practices</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1XsfDWzL7TWI9vtUtBXZA0m9yamdXcVqN"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1XsfDWzL7TWI9vtUtBXZA0m9yamdXcVqN/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 08 B1 & B2 Basic Aerodynamics -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 8 B1 & B2 - Basic Aerodynamics.webp"
+                        alt="EASA Module 8 B1 & B2 - Basic Aerodynamics">
+                    <h2 class="title t10">EASA Module 8 B1 & B2 - Basic Aerodynamics</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1A_xIOFakIF9I8e_Zsg2EZ-Zsu8Ha0tv-"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1A_xIOFakIF9I8e_Zsg2EZ-Zsu8Ha0tv-/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 09 Human Factors -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 9 B1 & B2 - Human Factors.webp" alt="EASA Module 9 B1 & B2 - Human Factors">
+                    <h2 class="title t11">EASA Module 9 B1 & B2 - Human Factors</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1SHLobtEW1gffi9YvsuHIxKZb209dXJ1u"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1SHLobtEW1gffi9YvsuHIxKZb209dXJ1u/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 10 B1 & B2 - Aviation Legislation -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 10 B1 & B2 - Aviation Legislation.webp"
+                        alt="EASA Module 10 B1 & B2 - Aviation Legislation">
+                    <h2 class="title t12">EASA Module 10 B1 & B2 - Aviation Legislation</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1d31qH1ycNSJafO6SoKvpXyObf87zfOkR"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1d31qH1ycNSJafO6SoKvpXyObf87zfOkR/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 11A B1 - Turbine Aeroplane Structures and Systems -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 11A B1 - Turbine Aeroplane Structures and Systems.webp"
+                        alt="EASA Module 11A B1 - Turbine Aeroplane Structures & Systems">
+                    <h2 class="title t13">EASA Module 11A B1 - Turbine Aeroplane Structures & Systems</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1MRMlkLczeV1F5GFpERsyI3cG_7t3VEAj"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1MRMlkLczeV1F5GFpERsyI3cG_7t3VEAj/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 13 B2 - Aircraft structure and system -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/MOdule 13 B2 Aircraft Structures and Systems.webp"
+                        alt="EASA Module 13 B2 - Aircraft Structures & Systems">
+                    <h2 class="title t14">EASA Module 13 B2 - Aircraft Structures & Systems</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1ykKNNqTaRLXrI7Yb4rWHVjw_cTVkSkcB"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1ykKNNqTaRLXrI7Yb4rWHVjw_cTVkSkcB/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 14 B2 - Propulsion -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 14 B2 - Propulsion.webp" alt="EASA Module 14 B2 - Propulsion">
+                    <h2 class="title t15">EASA Module 14 B2 - Propulsion</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1-gEU3IwiSfxDtTQ37SlJxQJqEB92w0SK"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1-gEU3IwiSfxDtTQ37SlJxQJqEB92w0SK/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 15 B1 - Gas Turbine Engine -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 15 B1 - Gas Turbine Engine.webp"
+                        alt="EASA Module 15 B1 - Gas Turbine Engine">
+                    <h2 class="title t16">EASA Module 15 B1 - Gas Turbine Engine</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1ZfU4-djgxJe-D-Eqwc14Zqgbu8QQWEZ4"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1ZfU4-djgxJe-D-Eqwc14Zqgbu8QQWEZ4/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 16 - Piston Engine -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/MOdule 16 Piston Engine.webp" alt="EASA Module 16 - Piston Engine">
+                    <h2 class="title t17">EASA Module 16 - Piston Engine</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1csInA7BtQ2bkp3lE1n8fGzGlZIfV_dKY"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1csInA7BtQ2bkp3lE1n8fGzGlZIfV_dKY/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Module 17A B1- Propeller -->
+                <article class="items" data-items="EASA">
+                    <img src="b-img/Module 17A B1- Propeller.webp" alt="EASA Module 17A B1- Propeller">
+                    <h2 class="title t18">EASA Module 17A B1- Propeller</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1bj9tPu6Z_JuiaQDCm1OZK12Z2I7GimTF"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1bj9tPu6Z_JuiaQDCm1OZK12Z2I7GimTF/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- CAIP Part 1 - Basic -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/caip 01.webp" alt="Civil Aircraft Inspection Procedures (CAP 459)- Part I">
+                    <h2 class="title t19">Civil Aircraft Inspection Procedures (CAP 459)- Part I</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1_iw3ndIx4YH_QGuRfQ1xaibTfUxTwafz"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1_iw3ndIx4YH_QGuRfQ1xaibTfUxTwafz/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- CAIP Part 2 - Aircraft -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/caip 02.webp" alt="Civil Aircraft Inspection Procedure (CAP 459)- Part II">
+                    <h2 class="title t20">Civil Aircraft Inspection Procedure (CAP 459)- Part II</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=16xwIdswtJFiYU_1L6VozjeDATIHg6zM2"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/16xwIdswtJFiYU_1L6VozjeDATIHg6zM2/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aviation Maintenance Technician Handbook (9A)- General -->
+                <article class="items" data-items="9A">
+                    <img src="b-img/FAA 9A.webp" alt="(Old 9A) Aviation Maintenance Technician Handbook - General">
+                    <h2 class="title">(Old 9A) Aviation Maintenance Technician Handbook - General</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1ajXlLqGyYvm_wCGUaZdtoGsmNVgRtNhU"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1ajXlLqGyYvm_wCGUaZdtoGsmNVgRtNhU/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- (9A New)Aviation Maintenance Technician Handbook – General -->
+                <article class="items" data-items="9A">
+                    <img src="b-img/usa.webp" alt="(9A) Aviation Maintenance Technician Handbook - General">
+                    <h2 class="title">(9A) Aviation Maintenance Technician Handbook - General</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1K9A5uAfgFbWuH5ko1pZqxGsJm03dJy5o"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1K9A5uAfgFbWuH5ko1pZqxGsJm03dJy5o/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- 12A AMT Powerplant  Vol I  -->
+                <article class="items" data-items="12A">
+                    <img src="b-img/FAA amt.webp" alt="(New) 12A AMT-Powerplant Vol I">
+                    <h2 class="title">(New) 12A AMT-Powerplant Vol I </h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1DSlesxvzrfC50aOzUZzF5-Fkby5LAVSE"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1DSlesxvzrfC50aOzUZzF5-Fkby5LAVSE/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- 12A AMT Powerplant  Vol II -->
+                <article class="items" data-items="12A">
+                    <img src="b-img/FAA amt 2.webp" alt="(New) 12A AMT-Powerplant Vol II ">
+                    <h2 class="title">(New) 12A AMT-Powerplant Vol II </h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=14QsprILq5BIYjYDZnRvyVubHoKZnePw1"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/14QsprILq5BIYjYDZnRvyVubHoKZnePw1/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Old 12A AMT-Powerplant Vol I -->
+                <article class="items" data-items="12A">
+                    <img src="b-img/8080 FAA.webp" alt="Old 12A AMT-Powerplant Vol I">
+                    <h2 class="title">Old 12A AMT-Powerplant Vol I</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=10E64Kpu2ncqXAQfc8oS9pd6xVzENiwAP"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/10E64Kpu2ncqXAQfc8oS9pd6xVzENiwAP/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Old 12A AMT-Powerplant Vol II -->
+                <article class="items" data-items="12A">
+                    <img src="b-img/8083 vol2.webp" alt="Old 12A AMT-Powerplant Vol II">
+                    <h2 class="title">Old 12A AMT-Powerplant Vol II</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1YmS8AIwb6dTV-0nIN4FOMIuzCABkzjcb"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1YmS8AIwb6dTV-0nIN4FOMIuzCABkzjcb/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- New 15A AMT-Airframe Vol I -->
+                <article class="items" data-items="15A">
+                    <img src="b-img/AMT vol1.webp" alt="New 15A AMT-Airframe Vol I">
+                    <h2 class="title">New 15A AMT-Airframe Vol I</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=14PpGoF1zKzTV4NTCiDwpakJr0HQHvMCa"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/14PpGoF1zKzTV4NTCiDwpakJr0HQHvMCa/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- New 15A AMT-Airframe Vol II -->
+                <article class="items" data-items="15A">
+                    <img src="b-img/(New)Aviation Maintennace Technical Handbook, Airframe Vol 2.webp"
+                        alt="15A AMT-Airframe Vol II">
+                    <h2 class="title">15A AMT-Airframe Vol II</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1F1Lw33qSHS2pkk75j9WGK5J46KwnvGY1"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1F1Lw33qSHS2pkk75j9WGK5J46KwnvGY1/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Old 15A AMT-Airframe Vol I -->
+                <article class="items" data-items="15A">
+                    <img src="b-img/Aviation Maintennace Technical Handbook, Airframe Vol 1.webp"
+                        alt="Old 15A AMT-Airframe Vol I">
+                    <h2 class="title">Old 15A AMT-Airframe Vol I</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1_7GoABXM1tcrk7CdpOxfDVR05fFRsKSX"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1_7GoABXM1tcrk7CdpOxfDVR05fFRsKSX/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Old 15A AMT-Airframe Vol II -->
+                <article class="items" data-items="15A">
+                    <img src="b-img/Aviation Maintennace Technical Handbook, Airframe Vol 2.webp"
+                        alt="Old 15A AMT-Airframe Vol II">
+                    <h2 class="title">Old 15A AMT-Airframe Vol II</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1mjuKXw0I2bJNnAz7WSHSdoZY0Nc7SRWF"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1mjuKXw0I2bJNnAz7WSHSdoZY0Nc7SRWF/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Electrical System by E H J Pallett -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/Aircraft electrical system.webp" alt="Aircraft Electrical System By E H J Pallett">
+                    <h2 class="title t21">Aircraft Electrical System By E H J Pallett</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=18uhl830EYZGX_7ojWTYb8vh6RekdoEQX"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/18uhl830EYZGX_7ojWTYb8vh6RekdoEQX/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- C008 Basic Arodynamics -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/c008.webp" alt="C008 Basic Aerodynamics">
+                    <h2 class="title">C008 Basic Aerodynamics</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1abcyUtm5qmJxmhUgfkiWe3-gJ-ruEegW"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1abcyUtm5qmJxmhUgfkiWe3-gJ-ruEegW/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Instrument and Integrated System -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/aircraft instrument and integration.webp"
+                        alt="Aircraft Instrument and Integrated System By E H J Pallett">
+                    <h2 class="title">Aircraft Instrument and Integrated System By E H J Pallett</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1hcHb2lJNuSLsqXgmgPD31ebSRi8RjN_S"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1hcHb2lJNuSLsqXgmgPD31ebSRi8RjN_S/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Automatic Flight Control System -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/automated flight control system.webp"
+                        alt="Automatic Flight Control System By Donald Mclean">
+                    <h2 class="title">Automatic Flight Control System By Donald Mclean</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1_zAnDIsITpUoGlcggpoqUjC2ubZhF-GI"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1_zAnDIsITpUoGlcggpoqUjC2ubZhF-GI/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Maintenance Technical Series By Dale Crane -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/dale.webp" alt="Aircraft Maintenance Technical Series By Dale Crane">
+                    <h2 class="title t25">Aircraft Maintenance Technical Series By Dale Crane</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1xeJvOv4mAU-663AnCpc1xhoHjiykNkCN"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1xeJvOv4mAU-663AnCpc1xhoHjiykNkCN/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Maintenance Technician Series PowerPlant By Dale Crane -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/powerplant.webp"
+                        alt="Aircraft Maintenance Technician Series PowerPlant By Dale Crane">
+                    <h2 class="title t26">Aircraft Maintenance Technician Series PowerPlant By Dale Crane</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1Lxyxwx9WpYpAUjY87GS54a5rdrncF19S"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1Lxyxwx9WpYpAUjY87GS54a5rdrncF19S/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Electrical Technology Vol-2 -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/electrical tech vo2.webp" alt="Electrical Technology Vol 2 By B.L Theraja">
+                    <h2 class="title t27">Electrical Technology Vol 2 By B.L Theraja</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1KNxnFIhIYUAhdf9weM_f3Jn-oDPvqpt9"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1KNxnFIhIYUAhdf9weM_f3Jn-oDPvqpt9/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Electronic Circuits - Fundamental and Applications By Mike Tooley -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/electronic cuircit.webp"
+                        alt="Electronic Circuits- Fundamental and Applications By Mike Tooley">
+                    <h2 class="title t28">Electronic Circuits - Fundamental and Applications By Mike Tooley</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1d9eWpAAfff3DaR7t_T4LqrTe0VPoxZPk"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1d9eWpAAfff3DaR7t_T4LqrTe0VPoxZPk/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Electricity and Electronics By Eismin -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/esmin.webp" alt="Aircraft Electricity and Electronics By Eismin">
+                    <h2 class="title t29">Aircraft Electricity and Electronics By Eismin</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=15euJYDeRSEzNg6TJwCvcUzFEN20kwcXZ"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/15euJYDeRSEzNg6TJwCvcUzFEN20kwcXZ/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Communications and  Navigation System -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/green.webp" alt="Aircraft Communications and Navigation System By Mike Tooley">
+                    <h2 class="title t30">Aircraft Communications and Navigation System By Mike Tooley</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1TOEq0Fx-d2DarkkaYLwL4HcQIU_ppyMs"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1TOEq0Fx-d2DarkkaYLwL4HcQIU_ppyMs/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Grobe's Basic Electronics -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/grobes.webp" alt="Grobe's Basic Electronics">
+                    <h2 class="title t31">Grobe's Basic Electronics</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1MrWwqg4UBjFTdxwK-oPf1u5D-B8mAd7V"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1MrWwqg4UBjFTdxwK-oPf1u5D-B8mAd7V/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Helicopter Maintenance By Jeppson -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/helicopter maintenance.webp" alt="Helicopter Maintenance By Jeppson">
+                    <h2 class="title t32">Helicopter Maintenance By Jeppson</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1owzlDmxXHUGI97t2wSSwY4vAzSrjJvxP"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1owzlDmxXHUGI97t2wSSwY4vAzSrjJvxP/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- A & P Technician Powerplant TextBook by Jeppesen -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/jeppesen.webp" alt="A & P Technician Powerplant TextBook by Jeppesen">
+                    <h2 class="title t33">A & P Technician Powerplant TextBook by Jeppesen</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1boGNwFh-t9H284IJLeVRG-cZa3NDl4RI"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1boGNwFh-t9H284IJLeVRG-cZa3NDl4RI/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- The Jet Engine -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/Jet engine.webp" alt="The Jet Engine">
+                    <h2 class="title t34">The Jet Engine</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1T8w3HknFuZpuFzT3yMTq4tEBCud__ASN"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1T8w3HknFuZpuFzT3yMTq4tEBCud__ASN/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Electronics Communication Systems By Kenndey -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/kennedy.webp" alt="Electronics Communication Systems By Kenndey">
+                    <h2 class="title t35">Electronics Communication Systems By Kenndey</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=17x5hfhSERvJuNCd6faH1AhnwRih6jBhI"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/17x5hfhSERvJuNCd6faH1AhnwRih6jBhI/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft PowerPlant by Kroes -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/kroes.webp" alt="Aircraft PowerPlant by Kroes">
+                    <h2 class="title t36">Aircraft PowerPlant by Kroes</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1PvUB0lnxXQB9LDMDoNGdA_3HJOG2dSH8"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1PvUB0lnxXQB9LDMDoNGdA_3HJOG2dSH8/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Mechanics of Flight By A C Kermode -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/mechanics of flight.webp" alt="Mechanics of Flight By A C Kermode">
+                    <h2 class="title t37">Mechanics of Flight By A C Kermode</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1y7BH1RbhN3mS7dvfl7YWsKKBiMoY_M9W"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1y7BH1RbhN3mS7dvfl7YWsKKBiMoY_M9W/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Engineering Drawing By N D Bhatt -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/n d bhatt.webp" alt="Engineering Drawing By N D Bhatt">
+                    <h2 class="title t38">Engineering Drawing By N D Bhatt</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1WDNvWsa8K-50rf64U4KluLMqSuPVw-jo"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1WDNvWsa8K-50rf64U4KluLMqSuPVw-jo/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Electrical and Electronics System By Mike Tooley -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/navy.webp" alt="Aircraft Electrical and Electronics System By Mike Tooley">
+                    <h2 class="title">Aircraft Electrical and Electronics System By Mike Tooley</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1138knr1Gfr11m-M-61uP4hmvr3_NCzGi"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1138knr1Gfr11m-M-61uP4hmvr3_NCzGi/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Gas Turbine Powerplants By Otis -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/otis.webp" alt="Aircraft Gas Turbine Powerplants By Otis">
+                    <h2 class="title t40">Aircraft Gas Turbine Powerplants By Otis</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1xINIpnREwY-FLMOKcBdQFleh1aJvSH26"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1xINIpnREwY-FLMOKcBdQFleh1aJvSH26/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Principles of Electronics By V.K Mehta -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/principle of electronics.webp" alt="Principles of Electronics By V.K Mehta<">
+                    <h2 class="title">Principles of Electronics By V.K Mehta</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1I63lQzATff01bGzHAVfqyaam-ZPKagpw"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1I63lQzATff01bGzHAVfqyaam-ZPKagpw/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Digital Electronics and Computer System By Mike Tooley -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/red.webp" alt="Aircraft Digital Electronics and Computer System By Mike Tooley">
+                    <h2 class="title">Aircraft Digital Electronics and Computer System By Mike Tooley</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1x-4AdlCh5uT46R21fZmL1j0kpJph7aqb"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1x-4AdlCh5uT46R21fZmL1j0kpJph7aqb/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Rotorcraft Flying HandBook -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/rotorcraft flying handbook.webp" alt="Rotorcraft Flying HandBook">
+                    <h2 class="title">Rotorcraft Flying HandBook</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1ShdGvwFO6DEUSwB3OJZaYeTmpwUH2szJ"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1ShdGvwFO6DEUSwB3OJZaYeTmpwUH2szJ/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Shop Theory By James Anderson -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/Shop theory.webp" alt="Shop Theory By James Anderson">
+                    <h2 class="title">Shop Theory By James Anderson</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1I5M4xaz6DMUprmmGtyRST95e2UgcuGW8"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1I5M4xaz6DMUprmmGtyRST95e2UgcuGW8/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Materials and Processes By Titterton -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/titterton.webp" alt="Aircraft Materials and Processes By Titterton">
+                    <h2 class="title">Aircraft Materials and Processes By Titterton</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1gE_IJTD_1eGzdv_payxCJxkeKXLlkWNP"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1gE_IJTD_1eGzdv_payxCJxkeKXLlkWNP/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Gas Turbine Engine Technology By Treager -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/treager.webp" alt="Aircraft Gas Turbine Engine Technology By Treager">
+                    <h2 class="title">Aircraft Gas Turbine Engine Technology By Treager</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1ZoKklJ8EcPLXiGVgY4Oe7XTM51isQLp_"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1ZoKklJ8EcPLXiGVgY4Oe7XTM51isQLp_/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Aircraft Digital and Computer Systems By Mike Tooley -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/white.webp" alt="Aircraft Digital and Computer Systems By Mike Tooley">
+                    <h2 class="title">Aircraft Digital and Computer Systems By Mike Tooley</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1gKW9CYGxJliz6GwcdkN9ptK54Nk6Fuyt"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1gKW9CYGxJliz6GwcdkN9ptK54Nk6Fuyt/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+                <!-- Helicopter Flying Handbook -->
+                <article class="items" data-items="Others">
+                    <img src="b-img/helicopter flying handbook.webp" alt="Helicopter Flying Handbook">
+                    <h2 class="title">Helicopter Flying Handbook</h2>
+                    <div class="download-btn">
+                        <a href="https://drive.google.com/uc?export=download&id=1-a8E8qz0Ghk0AecbKukTlDFUMOrYXWmv"
+                            class="buttonDownload"><img src="assest/download-cloud.svg" alt="download">Download</a>
+                        <a href="https://drive.google.com/file/d/1-a8E8qz0Ghk0AecbKukTlDFUMOrYXWmv/view?usp=sharing"
+                            class="buttonDownload" target="_blank">Read Now</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="fo">
+        <div class="footer container">
+            <div class="fo-content">
+                <div class="follow">
+                    <a href="https://twitter.com/Pralhad_Nasane" target="_blank"><img src="assest/icons8-twitter.svg"
+                            alt="Twitter">
+                    </a>
+                    <a class="tooltip" href="https://github.com/Pralhad-Nasane" target="_blank"><img
+                            src="assest/icons8-github.svg" alt="Github">
+                    </a>
+                    <a href="https://in.linkedin.com/in/pralhadnasane" target="_blank"><img
+                            src="assest/icons8-linkedin-2.svg" alt="Linkedin">
+                    </a>
+                </div>
+
+                <div class="term">
+                    <span id="PrivacyModal">Privacy</span>
+                </div>
+            </div>
+
+            <div class="sugg">
+                <div class="q" id="q">
+                    <span>Have a suggestion?</span>
+                    <span>Let's Talk</span>
+                </div>
+            </div>
+
+            <div class="copy">
+                <span>Copyright © 2022 <img src="assest/ABFooter.svg" alt="AviationBooks">. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("5g9pvFjvG95FqsVjo");
+        })();
+    </script>
+</body>
+
+</html>
